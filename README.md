@@ -16,16 +16,18 @@ npm install -y
 ```
 
 ### COMMAND TO RUN THE TESTS:
-```
-APPLITOOLS_API_KEY='YOURTOKEN' npx cypress run --env URL=https://demo.applitools.com,ENV=PRODV1 --spec "./cypress/integration/hackathon/holiday_shopping-test.spec.js"
-```
 
+```
+// To test against PRODV1 ( https://demo.applitools.com/tlcHackathonMasterV1.html)
+APPLITOOLS_API_KEY='YOURTOKEN' npx cypress run --env URL=https://demo.applitools.com,ENV=PRODV1 --spec "./cypress/integration/hackathon/holiday_shopping-test.spec.js"
+
+// To test against DEV ( https://demo.applitools.com/tlcHackathonDev.html)
+APPLITOOLS_API_KEY='YOURTOKEN' npx cypress run --env URL=https://demo.applitools.com,ENV=DEV --spec "./cypress/integration/hackathon/holiday_shopping-test.spec.js"
+
+// To against PRODV2 ( https://demo.applitools.com/tlcHackathonMasterV2.html)
+APPLITOOLS_API_KEY='YOURTOKEN' npx cypress run --env URL=https://demo.applitools.com,ENV=PRODV2 --spec "./cypress/integration/hackathon/holiday_shopping-test.spec.js"
+
+```
 NOTE: Please input your AppliTools API token in the above command.
 
 Also, please define 'URL' and'ENV' as in the command above. The supported environment name are: DEV, PRODV1 or PRODV2"
-```
-ENV is 'PRODV1' {$URL}+/tlcHackathonMasterV1.html
-ENV is 'DEV' {$URL}+/tlcHackathonDev.html
-ENV is 'PRODV2' {$URL}+/tlcHackathonMasterV2.html
-
-```
