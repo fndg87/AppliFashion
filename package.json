@@ -1,0 +1,28 @@
+{
+  "name": "AppliFashion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fndg87/AppliFashion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fndg87/AppliFashion/issues"
+  },
+  "homepage": "https://github.com/fndg87/AppliFashion#readme",
+  "devDependencies": {
+    "@applitools/eyes-images": "^4.16.0",
+    "cypress": "^6.0.0"
+  },
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.15.5"
+  }
+}
