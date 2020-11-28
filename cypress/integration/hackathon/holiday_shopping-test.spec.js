@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import {TestUtils} from "./Utils";
+import {TestUtils} from "./TestUtils";
 
 describe('Holiday Shopping - Test suite', () => {
 

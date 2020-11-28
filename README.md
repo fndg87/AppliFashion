@@ -21,3 +21,11 @@ APPLITOOLS_API_KEY='YOURTOKEN' npx cypress run --env URL=https://demo.applitools
 ```
 
 NOTE: Please input your AppliTools API token in the above command.
+
+Also, please define 'URL' and'ENV' as in the command above. The supported environment name are: DEV, PRODV1 or PRODV2"
+```
+ENV is 'PRODV1' {$URL}+/tlcHackathonMasterV1.html
+ENV is 'DEV' {$URL}+/tlcHackathonDev.html
+ENV is 'PRODV2' {$URL}+/tlcHackathonMasterV2.html
+
+```
